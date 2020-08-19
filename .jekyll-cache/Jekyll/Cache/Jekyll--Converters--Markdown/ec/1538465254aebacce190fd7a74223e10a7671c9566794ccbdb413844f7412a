@@ -1,0 +1,10 @@
+I"<p>In your config file change these settings</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">title</span><span class="pi">:</span> <span class="s">Avetik Karagulyan</span>
+<span class="na">author</span><span class="pi">:</span>  
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Avetik Karagulyan</span>  
+  <span class="na">email</span><span class="pi">:</span> <span class="s">auavetik@gmail.com</span>  
+  <span class="na">github</span><span class="pi">:</span> <span class="s">avetx</span>  
+  <span class="na">instagram</span><span class="pi">:</span> <span class="s">vtarandi</span>
+  <span class="na">bio</span><span class="pi">:</span> <span class="s">FOLLOW EXEQ!</span></code></pre></figure>
+:ET

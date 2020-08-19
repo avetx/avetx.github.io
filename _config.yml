@@ -1,0 +1,48 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: Avetik Karagulyan
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: Stylish Jekyll Theme
+author:
+  name: Avetik Karagulyan
+  email: auavetik@gmail.com 
+  github: avetx
+  twitter: 
+  instagram: vtarandi
+  scholar: citations?user=1-_KDtoAAAAJ&hl=en
+  pinterest:  
+  linkedin:  
+  bio: Researcher
+  email_md5: 
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+publications_path: publications.html
+conferences_path: conferences.html
+bio_path: bio.html
+teaching_path: teaching.html
+
+
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
