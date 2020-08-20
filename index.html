@@ -1,6 +1,7 @@
 ---
 layout: page
-tagline:
+title: Home
+tagline: 
 ---
 
 {% for post in paginator.posts %}
@@ -20,9 +21,9 @@ tagline:
   </span> -->
 
   <h2>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.address }}">{{ post.title }}</a>
   </h2>
-
+<!-- {{ site.BASE_path }}{{ post.url }} -->
   <div>
     {% if post.fullview %}
     {{ post.content }}
@@ -41,7 +42,7 @@ tagline:
 {% endfor %}
 <hr/>
 
-<ul class="pager"> 
+<!-- <ul class="pager"> 
 
   {% if paginator.previous_page %}
   <li class="previous">
@@ -72,3 +73,4 @@ tagline:
   {% endif %}
 
 </ul>
+ -->

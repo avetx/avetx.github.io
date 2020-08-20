@@ -28,6 +28,10 @@ body{
 
 .a { color: #ffcc99; }
 
+a:link, a:visited{
+	color: #517394
+}
+
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
