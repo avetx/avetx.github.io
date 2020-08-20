@@ -18,7 +18,7 @@ body{
 }
 .sidebar-header .title{
 	letter-spacing: 3px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .sidebar-header .title a{
