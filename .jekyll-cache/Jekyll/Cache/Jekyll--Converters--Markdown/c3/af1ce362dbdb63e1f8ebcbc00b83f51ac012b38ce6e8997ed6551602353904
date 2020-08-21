@@ -1,22 +1,11 @@
----
-layout: post
-title: News
-categories: <!-- [general, setup, demo] -->
-tags: [demo, dbyll, dbtek, setup]
-fullview: true
-comments: true
-address: 
-
----
-
-<div>
+I"$<div>
 
 <ul style="margin-left: 1cm; font-size: 14pt">
 	<li> 
 		<h3> Currently looking for a Postdoc Position. </h3>
 	</li>
 	<li>
-		<a style="font-size: 14pt" href="https://franknielsen.github.io/SPIG-LesHouches2020/">
+		<a href="https://franknielsen.github.io/SPIG-LesHouches2020/">
 			Joint Structures and Common Foundations of Statistical Physics, Information Geometry and Inference for Learning (SPIGL'20) </a>,
 			26th July to 31st July 2020, Les Houches, France | <strong style="color:  #517394"> Poster</strong> 	
 	</li>
@@ -29,3 +18,4 @@ address:
 
 
 </div>
+:ET
