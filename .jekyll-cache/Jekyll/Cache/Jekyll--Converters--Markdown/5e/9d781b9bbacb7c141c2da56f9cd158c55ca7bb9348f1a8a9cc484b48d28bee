@@ -1,15 +1,4 @@
----
-layout: post
-title: News
-categories: <!-- [general, setup, demo] -->
-tags: [demo, dbyll, dbtek, setup]
-fullview: true
-comments: true
-address: 
-
----
-
-<div>
+I"L<div style="margin-left: 1cm">
 
 <ul style="margin-left: 1cm; font-size: 14pt">
 	<li> 
@@ -29,3 +18,4 @@ address:
 
 
 </div>
+:ET
