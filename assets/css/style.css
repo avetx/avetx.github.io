@@ -1,5 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
+
+
+
+/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">*/
+
+
 body{
 	color: #2c3e50;
 }
@@ -130,7 +136,7 @@ article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'Verdana', sans-serif;
+	font-family: 'MS PGothic', sans-serif;
 	color: #517394;
 }
 
