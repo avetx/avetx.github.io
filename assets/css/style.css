@@ -1,6 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+/*@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);*/
 
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Comfortaa|Montserrat');
 
 
 /*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">*/
@@ -55,7 +56,9 @@ a.nav-link:hover { color: #777; }
 	margin-bottom: 10px;
 }
 
-
+.div {
+  font-family: Comfortaa, sans-serif;
+}
 
 #contact-list li .fa,
 article .share .btn {
@@ -126,17 +129,17 @@ article {
 }
 
 article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
+article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: underline; }
 article img { max-width: 100%; }
 
-h1,h2,h3,h4,h5,h6 { font-family: MS PGothic, sans-serif }
+h1,h2,h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif }
 article.home h1,
 article.home h2,
 article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'MS PGothic', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #517394;
 }
 
@@ -158,9 +161,17 @@ article.home h4 a:hover {
   margin-right: 20px;
 }
 
+
+
+div {
+	padding-top: 7px;
+	font-family: 'Open Sans', monospace;
+}
+
+
 footer {
 	padding-top: 15px;
-	font-family: 'MS PGothic';
+	font-family: 'Montserrat', monospace;
 }
 
 /*MS PGothic*/
