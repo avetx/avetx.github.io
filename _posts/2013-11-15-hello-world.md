@@ -22,6 +22,6 @@ at ENS Paris-Saclay with highest honors (mention "très bien"). I graduated from
 </div>
 <hr width="100%" size="10" align="left" color="#ced9e4">
 <div style="font-size: 14pt; text-align: justify; margin-left: 1cm;  margin-right: 1cm">
-	The topic of my research is the problem of sampling with Langevin algorithm. In particular, I am interested in non-asymptotic results 
-	of convergence of both continuous and discretized Langevin dynamics.
+	The topic of my research is the problem of sampling with Langevin algorithm. I mainly focus on 
+	non-asymptotic bounds for convergence of both continuous and discretized Langevin dynamics.
 </div> 
