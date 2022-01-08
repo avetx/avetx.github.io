@@ -1,5 +1,5 @@
 <!-- sidebar.html -->
-<header class="sidebar-header" role="banner">
+<header class="sidebar-header" role="banner" position ="fixed">
 	<a href="{{ site.BASE_PATH }}/">
 		<img src="/avo_amsterdam.jpg" class="img-circle" width="65%" />
 	</a>
@@ -9,10 +9,10 @@
 </header>
 
 {% if site.author.bio %}
-<div id="bio" class="text-center" style = "margin-bottom: 2cm; margin-top: 3.5cm; font-family: 'Comfortaa'; font-weight: lighter;" >
+<div id="bio" class="text-center" style = "margin-bottom: 60px; margin-top: 40px; font-family: 'Comfortaa'; font-weight: lighter;" position ="fixed" >
 	<ul class="list-unstyled list-inline">
 		<li>
-			<a  href="https://kaust.edu.sa/", style="font-size:16pt; color: #ffffff">
+			Postdoctoral fellow at <a  href="https://kaust.edu.sa/", style="font-size:16pt; color: #ffffff">
 				<p >
 					KAUST
 				</p>
@@ -36,7 +36,7 @@
 </div>
 {% endif %}
 
-<div id="contact-list" class="text-center" style="margin-bottom: 0cm">
+<div id="contact-list" class="text-center" style="margin-top: 60px" position ="fixed">
 	<ul class="list-unstyled list-inline">
 		{% if site.author.github %}
 		<li>
@@ -90,12 +90,12 @@
 	</ul> -->
 </div>
 
-<div class="col-sm-9 col-sm-offset-3 text-left">
-		<footer text-aling = "center">
-			<p text-align="center">
+<!-- <div class="col-sm-9 col-sm-offset-3 text-center" >
+		<footer>
+			<p >
 				&copy; {{ site.time | date: '%Y' }} Made with <a href="http://jekyllrb.com/" style="color: #ffffff">Jekyll</a>.
 			</p>
 		</footer>
-</div>
+</div> -->
 
 <!-- sidebar.html end -->

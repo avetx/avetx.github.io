@@ -1,5 +1,17 @@
-<div class="page-header">
+<!-- <div class="page-header">
   <h1 style="margin-left: 1cm"> <strong> {{ page.title }} </strong> {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-</div>
+</div> -->
 
+
+<div class="page-header" style = "margin-left: 1.5cm; margin-bottom: 1cm; font-family: 'Comfortaa';">
+	<h2>
+	<ul class="list-unstyled list-inline">
+		<li leftmar><a href="{{ site.BASE_PATH}}/{{}}">Home</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.bio_path }}">Bio</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.publications_path }}">Publications</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.conferences_path }}">Talks</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.teaching_path }}">Teaching</a></li>
+	</ul>
+	</h2>
+</div>
 {{ content }}
