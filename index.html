@@ -20,13 +20,13 @@ tagline:
     {{ post.date | date: "%Y" }}
   </span> -->
   {% if post.link %}
-    <h2>
+    <h3>
       <a href="{{ post.address }}">{{ post.title }}</a>
-    </h2>
+    </h3>
   {% else %}
-    <h2>
+    <h3>
       {{ post.title }}
-    </h2>
+    </h3>
   {% endif %}
 <!-- {{ site.BASE_path }}{{ post.url }} -->
   <div>
