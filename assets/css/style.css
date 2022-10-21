@@ -2,8 +2,10 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Comfortaa|Montserrat');
-
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+<link rel="stylesheet" 
+	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 /*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">*/
 
 
@@ -165,7 +167,7 @@ article.home h4 a:hover {
 
 div {
 	padding-top: 7px;
-	font-family: 'Open Sans', monospace;
+	font-family: 'Poppins'; /*, monospace;*/
 }
 
 
