@@ -27,5 +27,5 @@ at ENS Paris-Saclay with highest honors (mention "très bien"). I graduated from
 </div>
 <hr width="100%" size="10" align="left" color="#ced9e4">
 <div style="font-size: 12pt; text-align: justify; margin-left: 1cm;  margin-right: 1cm">
-	My research focuses on the study of different methods of sampling and their connections.
+	My research focuses on the study of different methods of sampling and their connections to optimization.
 </div> 
