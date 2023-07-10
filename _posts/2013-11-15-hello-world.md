@@ -1,8 +1,6 @@
 ---
 layout: post
-
 title: About me 
-
 link: true
 categories: <!-- [general, setup, demo] -->
 tags: [demo, dbyll, dbtek, setup]
