@@ -23,7 +23,13 @@ In 2018, I received my <a href="http://math.ens-paris-saclay.fr/version-francais
 MSc Mathematics, Vision, Learning (MVA)</a>  diploma 
 at ENS Paris-Saclay with highest honors (mention "très bien"). I graduated from Yerevan State University's faculty of Mathematics and Mechanics in 2017 with excellence.
 </div>
-<hr width="100%" size="10" align="left" color="#ced9e4">
+
 <div style="font-size: 12pt; text-align: justify; margin-left: 1cm;  margin-right: 1cm">
 	My research focuses on the study of different methods of sampling and their connections to optimization.
 </div> 
+
+<hr width="100%" size="10" align="left" color="#ced9e4">
+
+<div  style="margin-left: 1cm; font-size: 12pt">
+<h3>I am on the job market.</h3>
+</div>
