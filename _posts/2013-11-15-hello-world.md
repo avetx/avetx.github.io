@@ -31,5 +31,5 @@ at ENS Paris-Saclay with highest honors (mention "très bien"). I graduated from
 <hr width="100%" size="10" align="left" color="#ced9e4">
 
 <div  style="margin-left: 1cm; font-size: 12pt">
-<h3>I am on the job market.</h3>
+<h3>I am looking for faculty and postdoc positions.</h3>
 </div>
