@@ -14,6 +14,7 @@ author:
   name: Avetik Karagulyan  
   email: auavetik@gmail.com  
   github: avetx  
+  cv: cv_Avetik_Karagulyan.pdf
   instagram: vtarandi
   bio: FOLLOW EXEQ!
 {% endhighlight %}
