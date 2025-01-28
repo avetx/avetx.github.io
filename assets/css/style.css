@@ -1,220 +1,174 @@
-/*@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);*/
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Comfortaa|Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-<link rel="stylesheet" 
-	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?famasalshlakjshflkjahsily=Tangerine">*/
-
-
-body{
-	color: #2c3e50;
+/* Base Styles */
+body {
+/*  color: #2c3e50;*/
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
+.anonymous-pro {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+/* Sidebar */
 .sidebar {
-	position: fixed;
-	top: 0px;
-	padding-top: 10%;
-	background-color: #2c3e50;
-	color: #fff;
+  position: fixed;
+  top: 0;
+  padding-top: 10%;
+  background-color: #2c3e50;
+  color: #fff;
 }
 
 .sidebar-header {
-	text-align: center;
-	margin-bottom: 10px;
-}
-.sidebar-header .title{
-	letter-spacing: 3px;
-	text-transform: lowercase;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.sidebar-header .title a{
-	text-decoration: none;
-	color: #fff;
+.sidebar-header .title {
+  letter-spacing: 3px;
+  text-transform: lowercase;
 }
 
-.a { color: #ffcc99; }
-
-a:link, a:visited{
-	color: #517394
+.sidebar-header .title a {
+  text-decoration: none;
+  color: #fff;
+}
+.mek-margin {
+    margin-left: .8cm; 
+}
+.erku-margin {
+    margin-left: 1.2cm; 
+}
+.main-guyn{
+	color: #3f5973;
+}
+/* Links */
+/* Reset the link color and add dotted underline */
+a {
+  color: #3f5973 ; /* Inherits the text color from the surrounding text */
+  text-decoration: underline dotted; /* Dotted underline */
 }
 
-a.nav-link {
-	padding-bottom: 5px;
-	padding-top: 7px;
-	color: #aaa;
+/* If you want to style visited links the same way */
+a:visited {
+  color: #3f5973; /* Inherits the text color from the surrounding text */
+  text-decoration: underline dotted; /* Dotted underline */
 }
-a.nav-link i{
-	font-size: 16pt;
-}
-a.nav-link:hover { color: #777; }
 
+/* Optional: Style the hover state if needed */
+a:hover {
+	color: #3f5973;
+  /* color: #3f5973;  Keeps the color the same on hover */
+  text-decoration: underline; /* Keeps dotted underline on hover */
+/*  text-decoration-color: #3f5973;*/
+}
+/* Bio Section */
 #bio {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 12pt;
-	margin: 0 auto;
-	margin-bottom: 10px;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 12pt;
+  margin: 0 auto 10px;
+}
+.sidebar-icon{
+  color: #3f5973; 
+  text-decoration: none; /* Remove any underline, if it exists */
+}
+.sidebar-icon.hover {
+  color: #3f5973; 
+  /* Set the text color for buttons to #3f5973 */
+  text-decoration: none; /* Remove any underline, if it exists */
 }
 
-.div {
-  font-family: Comfortaa, sans-serif;
-}
-
+/* Contact List */
 #contact-list li .fa,
 article .share .btn {
-	-o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  transition:color .2s ease-out, background 1s ease-in;
+  transition: color 0.2s ease-out, background 1s ease-in;
+  -webkit-transition: color 0.2s ease-out, background 1s ease-in;
 }
+
 #contact-list li:hover .fa-twitter,
-article .share .twitter:hover {
-	color: #00ACEE;
-	border-color: #00ACEE;
-}
-#contact-list li:hover .fa-linkedin {
-	color: #1D87BD;
-}
-#contact-list li:hover .fa-envelope {
-	color: #E93E30;
-}
-#contact-list li:hover .fa-pinterest {
-	color: #CC2127;
-}
-#contact-list li:hover .fa-rss {
-	color: #2c3e50;
-}
-article .share .facebook:hover {
-	color: #43609C;
-	border-color: #43609C;
-}
-article .share .gplus:hover {
-	color: #C13929;
-	border-color: #C13929;
+article .share .twitter:hover { color: #00ACEE; border-color: #00ACEE; }
+#contact-list li:hover .fa-linkedin { color: #3f5973; }
+#contact-list li:hover .fa-github { color: #3f5973; }
+#contact-list li:hover .fa-graduation-cap { color: #3f5973; }
+#contact-list li:hover .fa-id-card  { color: #3f5973; }
+#contact-list li:hover .fa-envelope { color: #3f5973; }
+#contact-list li:hover .fa-pinterest { color: #3f5973; }
+#contact-list li:hover .fa-rss { color: #3f5973; }
+
+/* Articles */
+article {
+  margin-bottom: 40px;
+  padding: 0 5%;
 }
 
-#contact-list-secondary {
-	padding-bottom: 10px;
-}
-
-.page-header {
-	color: #517394;
-	/*text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);*/
-}
-
-@media only screen and (min-width: 768px) {
-    .page-header{
-        margin-right: 70px;
-    }
-}
-
-article{
-	margin-bottom: 40px;
-}
-
-.article_body{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+.article_body { margin: 20px 0; }
 
 .post-date {
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
 }
 
-article {
-	padding: 0 5% 0;
-}
-
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: underline; }
 article img { max-width: 100%; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif }
-article.home h1,
-article.home h2,
-article.home h3,
-article.home h4,
-article.home h5,
-article.home h6 {
-	font-family: 'Montserrat', sans-serif;
-	color: #517394;
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f5973;
+}
+h3 {
+    font-size: 17pt; /* Change to your desired size */
 }
 
-article.home h1 a,
-article.home h2 a,
-article.home h3 a,
-article.home h4 a {
-	color: #517394;
+h4 {
+    font-size: 15pt; /* Change to your desired size */
 }
+h5 {
+    font-size: 13pt; /* Change to your desired size */
+}
+
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #7b99b7;
+  color: #7b99b7;
 }
-
-.author .author-image {
-  float: left;
-  margin-right: 20px;
-}
-
-
 
 div {
-	padding-top: 7px;
-	font-family: 'Poppins'; /*, monospace;*/
+  padding-top: 7px;
+  font-family: 'Montserrat';
 }
-
 
 footer {
-	padding-top: 15px;
-	font-family: 'Montserrat', monospace;
+  padding-top: 15px;
+  font-family: 'Montserrat', monospace;
 }
 
-/*MS PGothic*/
-
-/* nav-vertical-tabs component */
+/* Components */
 .nav-tabs-vertical {
-    border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
-.nav-tabs-vertical li {
-    margin-right: -1px;
+.nav-tabs-vertical li { margin-right: -1px; }
+
+.nav-tabs-vertical>li.active>a,
+.nav-tabs-vertical>li.active>a:hover,
+.nav-tabs-vertical>li.active>a:focus {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-right-color: transparent;
 }
 
-.nav-tabs-vertical>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
-    color: #555;
-    cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-right-color: transparent;
-}
+.badge { background: #3f5973; }
 
-.nav-tabs-vertical>li>a {
-    line-height: 1.428571429;
-    border: 1px solid transparent;
-    border-radius: 4px 0 0 4px;
+/* Responsive */
+@media (min-width: 768px) {
+  .page-header { margin-right: 70px;}
 }
-
-.badge { background: #517394; }
-
-#nav-menu{
-    position: fixed;
-    top: 45px;
-    right: 45px;
-    z-index: 2000;
-}
-#nav-menu .dropdown-menu {
-    left: inherit;
-    right: 0px;
-}
-
-ul.dropdown-menu>li>a>i.fa {
-    width: 1.3em;
-}
-

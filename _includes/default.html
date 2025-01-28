@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
 	<meta charset="utf-8">
+	{% if page.title %}
 	<title>{{ page.title }}</title>
+	{% endif %}
 	{% if page.description %}
 	<meta name="description" content="{{ page.description }}">
 	{% endif %}
@@ -45,33 +48,33 @@
 				<span class="icon-bar"></span>
 			</button>
 			{% if site.author.github %}
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}">
-				<i class="fa fa-github"></i>
+			<a   class="sidebar-icon" href="http://github.com/{{ site.author.github }}">
+				<i class="fa-brands fa-github"></i>
 			</a>
 			{% endif %}
 			{% if site.author.twitter %}
-			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
+			<a  class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
 				<i class="fa fa-twitter"></i>
 			</a>
 			{% endif %}
 			{% if site.author.instagram %}
-		<!-- 	<a type="button" class="navbar-toggle nav-link" href="http://instagram.com/{{ site.author.instagram }}">
+		<!-- 	<a  class="navbar-toggle nav-link" href="http://instagram.com/{{ site.author.instagram }}">
 				<i class="fa fa-instagram"></i>
 			</a> -->
 			{% endif %}
 			{% if site.author.email %}
-			<a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
+			<button  class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope"></i>
-			</a>
+			</button>
 			{% endif %}
 			{% if site.author.scholar %}
-			<a type="button" class="navbar-toggle nav-link" href="http://scholar.google.com/{{ site.author.scholar }}">
-				<i class="fa fa-graduation-cap"></i>
-			</a>
+			<button  class="sidebar-icon" href="http://scholar.google.com/{{ site.author.scholar }}">
+				<i class="fa-solid fa-graduation-cap"></i>
+			</button>
 			{% endif %}
 			{% if site.author.cv %}
-			<a type="button" class="navbar-toggle nav-link" href="cv_Avetik_Karagulyan.pdf">
-				<i class="fa fa-id-card fa-lg"></i>
+			<a  class="navbar-toggle nav-link" href="cv_Avetik_Karagulyan.pdf">
+			<i class="fa-regular fa-id-card"></i>
 			</a>
 			{% endif %}
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
@@ -83,38 +86,19 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
-				<!-- <li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}">Categories</a></li>
-				<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">Tags</a></li> -->
-				<li><a href="{{ site.BASE_PATH}}/{{ site.bio_path }}">Bio</a></li>
-				<li><a href="{{ site.BASE_PATH}}/{{ site.publications_path }}">Publications</a></li>
-				<li><a href="{{ site.BASE_PATH}}/{{ site.conferences_path }}">Conferences/Talks</a></li>
-				<li><a href="{{ site.BASE_PATH}}/{{ site.teaching_path }}">Teaching</a></li>
+				<li class="active"><a  class="main_guyn" href="{{ site.BASE_PATH }}/">Home</a></li>
+				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.bio_path }}">Bio</a></li>
+				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.publications_path }}">Publications</a></li>
+				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.conferences_path }}">Conferences/Talks</a></li>
+				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.teaching_path }}">Teaching</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
 
-	<!-- nav-menu-dropdown -->
-	<!-- <div class="btn-group hidden-xs" id="nav-menu">
-		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-			<i class="fa fa-bars fa-lg"></i>
-		</button>
-		<ul class="dropdown-menu" role="menu">
-			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home fa-lg"></i>Home</a></li>
- -->			<!-- <li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder fa-lg"></i>Categories</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags fa-lg"></i>Tags</a></li>
-			 --><!-- <li><a href="{{ site.BASE_PATH}}/{{ site.bio_path }}"><i class="fa fa-beer fa-lg"></i>Bio</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.publications_path }}"><i class="fa fa-book fa-lg"></i>Publications</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.conferences_path }}"><i class="fa fa-microphone fa-lg"></i>Conferences/Talks</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.teaching_path }}"><i class="fa fa-anchor fa-lg"></i>Teaching</a></li>
-			<li class="divider"></li>
-			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
-		</ul>
-	</div> -->
-
 	<div class="col-sm-3 sidebar hidden-xs" style="{% if site.sidebar_background_image %}background: url({{site.sidebar_background_image}}) no-repeat !important;{% endif %}">
 		{% include sidebar.html %}
 	</div>
+
 
 	<div class="col-sm-9 col-sm-offset-3">
 		{{ content }}

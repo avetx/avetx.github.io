@@ -1,10 +1,6 @@
-<!-- <div class="page-header">
-  <h1 style="margin-left: 1cm"> <strong> {{ page.title }} </strong> {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-</div> -->
 
-
-<div class="page-header" style = "margin-left: 1.5cm; margin-bottom: 1cm; font-family: 'Comfortaa';">
-	<h4>
+<div class="page-header" style = "margin-left: 0.75cm; margin-bottom: 1cm; font-family: 'Comfortaa';">
+	<h3>
 	<ul class="list-unstyled list-inline">
 		<li leftmar><a href="{{ site.BASE_PATH}}/{{}}" style="{% if page.title == 'Home' %} text-decoration: underline  {%endif%}"> Home</a></li>
 		<li><a href="{{ site.BASE_PATH}}/{{ site.bio_path }}" style="{% if page.title == 'Bio' %} text-decoration: underline  {%endif%}">Bio</a></li>
@@ -12,6 +8,6 @@
 		<li><a href="{{ site.BASE_PATH}}/{{ site.conferences_path }}"  style="{% if page.title == 'Talks' %} text-decoration: underline  {%endif%}">Talks</a></li>
 		<li><a href="{{ site.BASE_PATH}}/{{ site.teaching_path }}"  style="{% if page.title == 'Teaching' %} text-decoration: underline  {%endif%}"> Teaching </a></li>
 	</ul>
-	</h4>
+	</h3>
 </div>
 {{ content }}

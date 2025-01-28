@@ -1,6 +1,8 @@
+{% if page.title %}
 <div class="page-header">
-  <h3 style="margin-top: 1cm; ">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h3>
+  <h4 style="margin-top: 1cm;">{{ page.title }} {% if page.tagline %}<small>{{ page.tagline }}</small>{% endif %}</h4>
 </div>
+{% endif %}
 	
 <article>
 
