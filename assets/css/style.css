@@ -169,6 +169,9 @@ footer {
 .badge { background: #3f5973; }
 
 /* Responsive */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .page-header { margin-right: 70px;}
+   .mobile-hide {
+    display: none;
+  }
 }

@@ -47,7 +47,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			{% if site.author.github %}
+		<!-- 	{% if site.author.github %}
 			<a   class="sidebar-icon" href="http://github.com/{{ site.author.github }}">
 				<i class="fa-brands fa-github"></i>
 			</a>
@@ -56,31 +56,31 @@
 			<a  class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
 				<i class="fa fa-twitter"></i>
 			</a>
-			{% endif %}
-			{% if site.author.instagram %}
+			{% endif %} -->
+			<!-- {% if site.author.instagram %} -->
 		<!-- 	<a  class="navbar-toggle nav-link" href="http://instagram.com/{{ site.author.instagram }}">
 				<i class="fa fa-instagram"></i>
 			</a> -->
-			{% endif %}
-			{% if site.author.email %}
-			<button  class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
+			<!-- {% endif %} -->
+			<!-- {% if site.author.email %}
+			<a  href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope"></i>
-			</button>
+			</a>
 			{% endif %}
 			{% if site.author.scholar %}
-			<button  class="sidebar-icon" href="http://scholar.google.com/{{ site.author.scholar }}">
+			<a   href="http://scholar.google.com/{{ site.author.scholar }}">
 				<i class="fa-solid fa-graduation-cap"></i>
-			</button>
+			</a>
 			{% endif %}
 			{% if site.author.cv %}
-			<a  class="navbar-toggle nav-link" href="cv_Avetik_Karagulyan.pdf">
+			<a  href="cv_Avetik_Karagulyan.pdf">
 			<i class="fa-regular fa-id-card"></i>
 			</a>
 			{% endif %}
-			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<!-- <img src="/aram.jpeg"  class="img-circle" width = "200" /> -->
-				{{ site.title }}	
-			</a>
+			-->
+			<a class="mek-margin"  href="{{ site.BASE_PATH }}/">
+				 <i class="fa-solid fa-house fa-lg"></i>
+			 </a> 
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -89,7 +89,7 @@
 				<li class="active"><a  class="main_guyn" href="{{ site.BASE_PATH }}/">Home</a></li>
 				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.bio_path }}">Bio</a></li>
 				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.publications_path }}">Publications</a></li>
-				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.conferences_path }}">Conferences/Talks</a></li>
+				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.conferences_path }}">Talks</a></li>
 				<li><a class="main_guyn" href="{{ site.BASE_PATH}}/{{ site.teaching_path }}">Teaching</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
