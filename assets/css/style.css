@@ -51,8 +51,7 @@ body {
 /* Links */
 /* Reset the link color and add dotted underline */
 a {
-/*   color: #3f5973 ; /* Inherits the text color from the surrounding text */ 
-	color: red;
+   	color: #3f5973 ; /* Inherits the text color from the surrounding text */ 
 	text-decoration: underline dotted; /* Dotted underline */
 }
 
