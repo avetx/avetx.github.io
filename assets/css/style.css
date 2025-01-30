@@ -39,6 +39,24 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+
+.sidebar-header-mobile {
+  text-align: left;
+  margin-left: 2cm;
+/*  margin-bottom: 10px;*/
+}
+
+.sidebar-header-mobile .title {
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: #2c3e50;
+}
+
+.sidebar-header-mobile .title a {
+  text-decoration: none;
+  color: #2c3e50;
+}
 .mek-margin {
     margin-left: .8cm; 
 }
@@ -172,6 +190,12 @@ footer {
 @media (max-width: 768px) {
   .page-header { margin-right: 70px;}
    .mobile-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+   .mobile-nkar {
     display: none;
   }
 }

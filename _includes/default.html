@@ -99,6 +99,87 @@
 		{% include sidebar.html %}
 	</div>
 
+<!-- 
+<header class="sidebar-header-mobile" role="banner" style="display: flex; align-items: left; position: top;">
+    <a href="{{ site.BASE_PATH }}/">
+        <img src="/avetik_official copy.jpg" class="img-circle" width="35%" style="margin-right: 15px;" />
+    </a>
+    <h3 class="title" style="text-align: left;">
+        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+    </h3>
+
+{% if site.author.bio %}
+<div id="bio" class="text-center" style="margin-bottom: 60px; margin-top: 40px; font-family: 'Montserrat'; font-weight: lighter; position: top;">
+    <ul class="list-unstyled list-inline">
+        <li>
+            Chargé de Recherche at 
+            <p>
+                <a href="https://www.insmi.cnrs.fr/fr" style="color: black; text-decoration: underline-dotted;">CNRS</a> / 
+                <a href="https://l2s.centralesupelec.fr/" style="color: black;">L2S</a>
+            </p>
+        </li>
+    </ul>
+</div>
+{% endif %}
+
+</header> -->
+<div class="mobile-nkar"> 
+<header class="sidebar-header-mobile" role="banner" style="display: flex; align-items: center; width: 100%;">
+    <a href="{{ site.BASE_PATH }}/">
+        <img src="/avetik_official copy.jpg" class="img-circle" width="120px" style="margin-right: 15px;" />
+    </a>
+    <div style="display: flex; flex-direction: column; justify-content: center;">
+        <h5 class="title" style="margin: 0; text-align: left;">
+            <a href="{{ site.BASE_PATH }}/" style="text-decoration: none;">{{ site.title }}</a>
+        </h5>
+        {% if site.author.bio %}
+        <div id="bio" style="font-family: 'Montserrat'; font-weight: lighter;font-size: 9pt; text-align: left; margin-top: -5px; color: #2c3e50;">
+            Chargé de Recherche at 
+            <a href="https://www.insmi.cnrs.fr/fr" style="color: #2c3e50; text-decoration: underline-dotted;">CNRS</a> / 
+            <a href="https://l2s.centralesupelec.fr/" style="color: #2c3e50;">L2S</a>
+        </div>
+        {% endif %}
+
+        <!-- Contact Buttons -->
+        <div id="contact-list" style="margin-top: -10px; text-align: left;">
+            <ul class="list-inline" style="padding: -10px; margin: -1;">
+                {% if site.author.email %}
+                <li style="display: inline; margin-right: -10px;">
+                    <a class="btn btn-default btn-xs sidebar-icon" href="mailto:{{ site.author.email }}" title="Email">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.author.scholar %}
+                <li style="display: inline;margin-right: -10px;">
+                    <a class="btn btn-default btn-xs sidebar-icon" href="https://scholar.google.com/{{ site.author.scholar }}" title="Google Scholar">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.author.cv %}
+                <li style="display: inline;margin-right: -10px;">
+                    <a class="btn btn-default btn-xs sidebar-icon" href="cv_Avetik_Karagulyan.pdf" title="CV">
+                        <i class="fa fa-id-card"></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.author.github %}
+                <li style="display: inline;margin-right: -10px;">
+                    <a class="btn btn-default btn-xs sidebar-icon" href="https://github.com/{{ site.author.github }}" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</header>
+</div>
+
+
+
+
 
 	<div class="col-sm-9 col-sm-offset-3">
 		{{ content }}
