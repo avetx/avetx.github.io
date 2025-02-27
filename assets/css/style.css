@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
+:root {
+    --text_guyn: #243342; /* Define your custom color */
+    --link_guyn: #243342; /* Define your custom color */
+}
 /* Base Styles */
 body {
 /*  color: #2c3e50;*/
@@ -21,7 +25,8 @@ body {
   position: fixed;
   top: 0;
   padding-top: 10%;
-  background-color: #2c3e50;
+  background-color: var(--text_guyn);
+/*  background-color: #2c3e50;*/
   color: #fff;
 }
 
@@ -64,25 +69,25 @@ body {
     margin-left: 1.2cm; 
 }
 .main-guyn{
-	color: #3f5973;
+/*  color: #3f5973;*/
+	color: var(--text_guyn);
 }
 /* Links */
 /* Reset the link color and add dotted underline */
 a {
-   	color: #3f5973 ; /* Inherits the text color from the surrounding text */ 
+color: var(--link_guyn) ;  /*Inherits the text color from the surrounding text */ 
 	text-decoration: underline dotted; /* Dotted underline */
 }
 
 /* If you want to style visited links the same way */
 a:visited {
-  color: #3f5973; /* Inherits the text color from the surrounding text */
+  color: var(--link_guyn) ;  /*Inherits the text color from the surrounding text */ 
   text-decoration: underline dotted; /* Dotted underline */
 }
 
 /* Optional: Style the hover state if needed */
 a:hover {
-	color: #3f5973;
-  /* color: #3f5973;  Keeps the color the same on hover */
+  color: var(--link_guyn) ;  /*Inherits the text color from the surrounding text */ 
   text-decoration: underline; /* Keeps dotted underline on hover */
 /*  text-decoration-color: #3f5973;*/
 }
@@ -93,12 +98,13 @@ a:hover {
   margin: 0 auto 10px;
 }
 .sidebar-icon{
-  color: #3f5973; 
+  color: var(--text_guyn);
+/*  color: #3f5973; */
   text-decoration: none; /* Remove any underline, if it exists */
 }
 .sidebar-icon.hover {
-  color: #3f5973; 
-  /* Set the text color for buttons to #3f5973 */
+  color: var(--text_guyn);
+/*  color: #3f5973; */
   text-decoration: none; /* Remove any underline, if it exists */
 }
 
@@ -138,7 +144,7 @@ article img { max-width: 100%; }
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #3f5973;
+  color: var(--text_guyn);
 }
 h3 {
     font-size: 17pt; /* Change to your desired size */
