@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 .playfair-display-<uniquifier> {
   font-family: "Playfair Display", serif;
@@ -114,8 +115,9 @@ a:hover {
 
 .menu_item { 
   color: inherit;
+/*  font-family: "Oswald", serif;*/
   font-family: "Poppins", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 
  }
@@ -172,7 +174,9 @@ article img { max-width: 100%; }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', serif;
+/*  font-family: 'IBM Plex Sans Condensed', serif;*/
+  font-family: 'Poppins', serif;
+  font-weight: 400;
   color: var(--text_guyn);
 }
 h3 {
@@ -203,6 +207,7 @@ section {
 }
 div {
   padding-top: 7px;
+/*  font-family: 'IBM Plex Sans';*/
   font-family: 'Montserrat';
   font-size: 12pt;
 }
