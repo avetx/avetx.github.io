@@ -6,15 +6,15 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: dbyll
-google_analytics: avetx.github.io
-title: Avetik Karagulyan
+google_analytics:  
+title:  
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Avetik Karagulyan
+      title:    
 
 description: Stylish Jekyll Theme
 author:
@@ -24,13 +24,15 @@ author:
   twitter: 
   instagram: 
   scholar: citations?user=1-_KDtoAAAAJ&hl=en
-  cv: cv_Avetik_Karagulyan.pdf
+  cv: ./pdf_attachments/cv_Avetik_Karagulyan.pdf
   pinterest:  
   linkedin:  
   bio: Researcher
   email_md5: 
 
-rss_path: feed.xml
+# rss_path: feed.xml
+home_path: home.html
+cv_path: pdf_attachments/cv.pdf
 categories_path: categories.html
 tags_path: tags.html
 publications_path: publications.html

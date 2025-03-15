@@ -12,7 +12,7 @@ size:
 ---
 
 
-
+<!-- 
 <ul style="font-size: 12pt; text-align: justify; margin-right: 1cm; margin-top: 0.5cm">
 My name is Avetik Karagulyan. I am a Research Scientist at <a href="https://www.insmi.cnrs.fr/fr">CNRS</a>/<a href="https://l2s.centralesupelec.fr/" >L2S</a>. Previously, I was a PostDoctoral fellow at <a href="http://cemse.kaust.edu.sa/">KAUST</a> in the team of professor <a href = "http://richtarik.org/" > Peter Richtárik</a>. I have defended my thesis at <a href="http://crest.science/" > 
 Center of Research in Economics and Statistics (CREST), Paris</a> 
@@ -27,3 +27,4 @@ at ENS Paris-Saclay with highest honors (mention "très bien"). I graduated from
 </ul> 
 
 
+ -->

@@ -164,10 +164,23 @@ article.home h3 a:hover,
 article.home h4 a:hover {
   color: #7b99b7;
 }
-
+section {
+  margin-left: 4%;
+  margin-right: 10%;
+  margin-bottom: 3em;
+}
 div {
   padding-top: 7px;
   font-family: 'Montserrat';
+  font-size: 12pt;
+}
+.content {
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+.vspace {
+    min-height: 20px;
 }
 
 footer {
