@@ -38,7 +38,7 @@ body {
 /*  color: #2c3e50;*/
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 50px;
+/*  padding-top: 50px;*/
 }
 
 .anonymous-pro {
@@ -117,7 +117,7 @@ a:hover {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
-/*  position: fixed;*/
+
  }
 
 /* Bio Section */
@@ -259,7 +259,7 @@ footer {
   }
 }
 
-.fixed-nav {
+/*.fixed-nav {
     position: fixed;
     top: 0;
     left: 20;
@@ -267,7 +267,5 @@ footer {
     background-color: white;
     padding: 10px 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for a clean look */
-}
-
-
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for a clean look 
+}*/
