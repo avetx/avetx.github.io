@@ -1,13 +1,16 @@
 
-<div class="mobile-hide page-header" style = "margin-left: 0.75cm; margin-bottom: 1cm; font-family: 'Comfortaa';">
-	<h3>
-	<ul class="list-unstyled list-inline">
-		<li leftmar><a href="{{ site.BASE_PATH}}/{{}}" style="{% if page.title == 'Home' %} text-decoration: underline  {%endif%}"> Home</a></li>
-		<li><a href="{{ site.BASE_PATH}}/{{ site.bio_path }}" style="{% if page.title == 'Bio' %} text-decoration: underline  {%endif%}">Bio</a></li>
-		<li><a href="{{ site.BASE_PATH}}/{{ site.publications_path }}"  style="{% if page.title == 'Publications' %} text-decoration: underline  {%endif%}" >Publications</a></li>
-		<li><a href="{{ site.BASE_PATH}}/{{ site.conferences_path }}"  style="{% if page.title == 'Talks' %} text-decoration: underline  {%endif%}">Talks</a></li>
-		<li><a href="{{ site.BASE_PATH}}/{{ site.teaching_path }}"  style="{% if page.title == 'Teaching' %} text-decoration: underline  {%endif%}"> Teaching </a></li>
-	</ul>
-	</h3>
+<div class="mobile-hide page-header" style=" margin-left: 0.75cm; margin-bottom: 1cm;">
+    <h4>
+        <ul class="list-unstyled list-inline menu_item">
+			<li><a href="{{ site.BASE_PATH }}/" {% if page.title == 'Home' %} style="text-decoration: underline;" {% endif %}>Home</a></li>
+            <li><a href="{{ site.BASE_PATH }}/{{ site.bio_path }}" {% if page.title == 'Bio' %} style="text-decoration: underline;" {% endif %}>Bio</a></li>
+            <li><a href="{{ site.BASE_PATH }}/{{ site.publications_path }}" {% if page.title == 'Publications' %} style="text-decoration: underline;" {% endif %}>Publications</a></li>
+            <li><a href="{{ site.BASE_PATH }}/{{ site.conferences_path }}" {% if page.title == 'Talks' %} style="text-decoration: underline;" {% endif %}>Talks</a></li>
+            <li><a href="{{ site.BASE_PATH }}/{{ site.teaching_path }}" {% if page.title == 'Teaching' %} style="text-decoration: underline;" {% endif %}>Teaching</a></li> 
+        </ul>
+    </h4> 
 </div>
+<!-- <div class="page-content"> -->
 {{ content }}
+<!-- </div> -->
+
