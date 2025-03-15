@@ -158,6 +158,10 @@ h5 {
     font-size: 13pt; /* Change to your desired size */
 }
 
+.tvakan{
+  font-family: Anonymous Pro;
+}
+
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
@@ -174,6 +178,7 @@ div {
   font-family: 'Montserrat';
   font-size: 12pt;
 }
+
 .content {
   text-align: justify;
   margin-left: 2%;

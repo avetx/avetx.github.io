@@ -7,14 +7,14 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics:  
-title:  
+title:  avetik karagulyan
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title:    
+      title:  avetik karagulyan
 
 description: Stylish Jekyll Theme
 author:
