@@ -64,6 +64,7 @@ body {
 .sidebar-header .title {
   letter-spacing: 3px;
   text-transform: lowercase;
+  font-family: Montserrat;
 }
 
 .sidebar-header .title a {
