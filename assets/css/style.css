@@ -65,6 +65,7 @@ body {
   letter-spacing: 3px;
   text-transform: lowercase;
   font-family: Montserrat;
+  font-weight: 200;
 }
 
 .sidebar-header .title a {
