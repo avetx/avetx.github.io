@@ -32,11 +32,10 @@
 
 :root {
     --text_guyn: #243342; /* Define your custom color */
-    --link_guyn: #243342; /* Define your custom color */
+    --link_guyn: #3f5974; /* Define your custom color */
 }
 /* Base Styles */
 body {
-/*  color: #2c3e50;*/
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
 /*  padding-top: 50px;*/
@@ -104,7 +103,7 @@ color: var(--link_guyn) ;  /*Inherits the text color from the surrounding text *
 
 /* If you want to style visited links the same way */
 a:visited {
-  color: var(--link_guyn) ;  /*Inherits the text color from the surrounding text */ 
+  color: var(--link_guyn) ; 
   text-decoration: underline dotted; /* Dotted underline */
 }
 
@@ -116,7 +115,7 @@ a:hover {
 }
 
 .menu_item { 
-  color: inherit;
+  color: var(--text_guyn);
 /*  font-family: "Oswald", serif;*/
   font-family: "Poppins", serif;
   font-weight: 500;
